@@ -1,0 +1,111 @@
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.header {
+    height: 100px;
+    z-index: 999;
+    width: 100%;
+}
+
+.title {
+    float: left;
+    margin-left: 0 auto;
+    margin-top: 30px;
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header-inner nav {
+    float: right;
+    margin-right: 10px;
+    display: flex;
+    margin-top: 30px;
+    color: blue;
+    font-weight: bold;
+}
+
+nav ul li {
+   list-style: none;
+   display: inline-block;
+   width: 110px;
+   position: relative;
+   text-decoration: none;
+}
+
+.relative {
+    position: relative;
+}
+
+.relative__img {
+    position: relative;
+    margin: 0 0 0 auto;
+    display: block;
+    width: 55%;
+}
+
+.absolute {
+    position: absolute;
+    top: 250px;
+    left: 0 auto;
+    font-size: 45px;
+    font-weight: 100;
+}
+
+.absolute2 {
+    position: absolute;
+    z-index: -1;
+    top: 300px;
+    width: 700px;
+    height: 150px;
+    background-color:darkblue;
+    justify-content: space-around;
+}
+
+
+
+
+/* 
+以下、個人メモ
+.about {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about1 {
+    display: flex;
+    float: left;
+    margin: auto;
+    position: relative;
+    padding-right: 510px;
+}
+
+.about2 {
+    display: flex;
+    margin: auto;
+    margin-bottom: 190px;
+}
+
+.about3 {
+    width: 700px;
+    height: 100px;
+    background-color: blue;
+} */
+
+
+/* 
+.main-nav li{
+    margin-left: 36px;
+}
+
+.main-nav a{
+    color:blue;
+}
+
+.main-nav a:hover{
+    color:red;
+} */
+
